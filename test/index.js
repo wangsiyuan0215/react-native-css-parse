@@ -39,7 +39,7 @@ describe('Testing start', function () {
 	});
 
 
-	describe('_toObejct()', function () {
+	describe('_toObejct()', function () ::{
 		it ('should be a Object', function (done) {
 			fileContent._toObject();
 
