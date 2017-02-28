@@ -1,0 +1,45 @@
+.container {
+	background: #000;
+	border-radius: 5px;
+	width: 10.5px;
+	margin: 10rem 20rem;
+	text-decoration: underline;
+	background-size: 100%;
+
+	border: solid 0.1rem #ddd;
+}
+
+.a {
+	width: 10px;
+	margin: 10rem 20 30;
+	transform: rotateX(30deg) translateX(100px) translate(300px,200px);
+	border-left: solid 0.2rem #ddd;
+}
+
+.b {
+	border-top-color: #fff;
+	border-left-top-radius: 5px;
+	margin: 10 20;
+	padding: 10 20 30;
+}
+
+
+
+.c {
+	display: block;
+	width: 20rem;
+	margin: 10rem 20 30 40px;
+}
+
+@media screen {
+	.container {
+		background: #fff;
+	}
+}
+
+@keyframes test {
+	0% {
+		color: red;
+	}
+}
+
